@@ -1,4 +1,4 @@
----
+---Kevin Herrera
 name: "🐛 Bug Report"
 
 about: "Reportar un error para ayudarnos a mejorar el proyecto."
