@@ -10,3 +10,5 @@ Una actualizacion mas
 cambios desde developer 01
 
 XD
+
+cambios  desde dev editor
