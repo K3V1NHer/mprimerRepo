@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/mprimerRepo/probando/probando.csproj": {}
+    "/home/kevin/mi_proyecto_nuevo/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/mprimerRepo/probando/probando.csproj": {
+    "/home/kevin/mi_proyecto_nuevo/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/mprimerRepo/probando/probando.csproj",
+        "projectUniqueName": "/home/kevin/mi_proyecto_nuevo/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/mprimerRepo/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/mprimerRepo/probando/obj/",
+        "projectPath": "/home/kevin/mi_proyecto_nuevo/probando/probando.csproj",
+        "packagesPath": "/home/kevin/.nuget/packages/",
+        "outputPath": "/home/kevin/mi_proyecto_nuevo/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/kevin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
